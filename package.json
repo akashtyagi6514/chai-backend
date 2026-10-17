@@ -1,0 +1,17 @@
+{
+  "name": "backend-with-database",
+  "version": "1.0.0",
+  "description": "backend with database",
+  "keywords": [
+    "database",
+    "backend",
+    "connection"
+  ],
+  "license": "ISC",
+  "author": "akash tyagi",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
