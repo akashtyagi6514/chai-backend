@@ -5,6 +5,7 @@ dns.setServers(["8.8.8.8", "1.1.1.1"]);
 
 import connectDB from "./db/index.js";
 import dotenv from "dotenv"
+import { app } from "./app.js"
 
 dotenv.config({
     path: "./env"
@@ -25,9 +26,10 @@ connectDB()
 
 
 
-// import express from "express";
+import express from "express";
 // const app = express();
 
+export { app };
 // (async () => {
 //     try {
 //         await mongoose.connect(`${process.env.MONGODB_URI}/${DB_NAME}`)
